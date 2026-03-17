@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="EndScreen" src="project://database/Assets/EndScreen.uxml?fileID=9197481963319205126&amp;guid=3af43d9ba40f5524f90e2df057019a24&amp;type=3#EndScreen"/>
+    <ui:Template name="NPCDialogue" src="project://database/Assets/NPCDialogue.uxml?fileID=9197481963319205126&amp;guid=d2b7aa46ba1754d42b483b4e5b04a65c&amp;type=3#NPCDialogue"/>
+    <ui:Template name="RobotCounter" src="project://database/Assets/RobotCounter.uxml?fileID=9197481963319205126&amp;guid=ed29ebe00e270ce4a93b880adbf9c6d3&amp;type=3#RobotCounter"/>
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/UI/UIHealthFrameDucko.png?fileID=21300000&amp;guid=918e7a741c040c140a699a450f3d6e2d&amp;type=3#UIHealthFrameDucko&quot;); width: 487px; height: 226px; -unity-background-scale-mode: scale-to-fit;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; background-image: none; -unity-background-scale-mode: scale-to-fit; position: absolute; height: 73px; width: 269px; top: 71px; left: 203px;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/UI/UIHealthBarDucko.png?fileID=21300000&amp;guid=335e35d6c24ef5141b778902f9d19a3b&amp;type=3#UIHealthBarDucko&quot;); width: 268px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ducko/UI/CharacterPortrait.png?fileID=21300000&amp;guid=0332b35b8fe3cf8458eb0558889493d1&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 170px; width: 183px; top: 34px; left: 10px;"/>
+    </ui:VisualElement>
+    <ui:Instance template="NPCDialogue" name="NPCDialogue" style="top: 70%; right: 15%; bottom: 5%; left: 15%; position: absolute;"/>
+    <ui:Instance template="EndScreen" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0;"/>
+    <ui:Instance template="RobotCounter" style="height: 129px; position: absolute; right: 6px; top: 4px; width: 267px;"/>
+</ui:UXML>

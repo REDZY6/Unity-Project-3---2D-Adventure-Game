@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Start%20Screen.uss?fileID=7433441132597879392&amp;guid=f13332de6f98c5741bdf719c6fd9c701&amp;type=3#Start Screen"/>
+    <ui:VisualElement name="Background" style="flex-grow: 1; position: absolute; top: 0; right: 0%; bottom: 0%; left: 0%; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/Background.png?fileID=2176806816641820759&amp;guid=45466ef8ed5f0fa4a94d9de87febf418&amp;type=3#backgorund_0&quot;);"/>
+    <ui:VisualElement name="TitleContainer" style="flex-grow: 1;">
+        <ui:VisualElement name="TitleImage" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/Title.png?fileID=-5392625257635239999&amp;guid=772a6fef6bd2cbe4d834ddf1b135c591&amp;type=3#Untitled-2_0&quot;); position: absolute; height: 252px; width: 795px; top: 65px; left: 596px;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="CharacterContainer" style="flex-grow: 1; position: absolute; height: 348px; width: 100%; top: 211px; left: 8px; right: -8px; -unity-background-scale-mode: scale-to-fit; -unity-text-align: upper-left; min-width: 0%; min-height: 0%;">
+        <ui:VisualElement name="DuckoSelector" class="character-selector" style="flex-grow: 1; position: absolute; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Common/CharacterScreen_Ducko.png?fileID=21300000&amp;guid=29b13209e9579d848b7533076646732d&amp;type=3#CharacterScreen_Ducko&quot;); height: 634px; width: 332px; top: 146px; left: 812px;"/>
+    </ui:VisualElement>
+</ui:UXML>

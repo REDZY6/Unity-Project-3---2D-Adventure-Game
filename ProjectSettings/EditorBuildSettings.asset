@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_2DAdventureGame/Scenes/StartScene.unity
+    guid: 93e24ff353387834db7d1be3f5a3827d
+  - enabled: 1
+    path: Assets/_2DAdventureGame/Scenes/MainScene.unity
+    guid: d635bc20fd629b149aa0d5b10c7ee2b3
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
